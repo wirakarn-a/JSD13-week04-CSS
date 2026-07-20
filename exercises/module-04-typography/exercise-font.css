@@ -4,6 +4,9 @@
    ============================================ */
 
 
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* --- Bug 1 ---
    Goal: If "FunkyFont" doesn't load, fall back to a sans-serif system font.
    Current: No fallback at all.
@@ -11,7 +14,7 @@
 */
 
 .fancy {
-  font-family: "FunkyFont", ;
+  font-family: "FunkyFont", sans-serif ;
 }
 
 
@@ -22,11 +25,11 @@
 */
 
 .thin {
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 
@@ -35,3 +38,8 @@
    Open the HTML file and add the correct <link> from Google Fonts
    to load "Roboto" at weights 400 and 700.
 */
+
+.google-font {
+   font-family: 'Roboto';
+   font-weight: 400, 700;
+}
