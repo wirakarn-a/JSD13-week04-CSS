@@ -29,6 +29,12 @@
   padding: 8px;
 }
 
+.flex-row span {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 4px 12px;
+  background: #f0f0f0;
+}
 
 /* --- Bug 3 ---
    Goal: The link should be block-level so the whole padded area is clickable.

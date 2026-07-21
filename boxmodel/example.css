@@ -1,0 +1,13 @@
+div{
+    padding: 32px;
+    box-sizing: border-box;
+    border: 7px black solid;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
