@@ -10,7 +10,7 @@
    Fix the descendant selector to use a child selector instead.
 */
 
-.nav li {
+.nav > li {
   font-weight: bold;
 }
 
@@ -21,7 +21,7 @@
    Fix the selector.
 */
 
-h3 p {
+h3 + p {
   font-style: italic;
 }
 
@@ -32,7 +32,7 @@ h3 p {
    Fix the selector.
 */
 
-.btn-hover hover {
+.btn-hover:hover {
   background: red;
   color: white;
 }
